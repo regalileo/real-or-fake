@@ -10,7 +10,7 @@ let session; // ONNX Runtime session
 async function loadModel() {
     predictionResult.textContent = 'Loading model...';
     try {
-        session = await ort.InferenceSession.create('mobilenet_v2_ai_real.onnx');
+        session = await ort.InferenceSession.create('mobilenet_v2_ai_real_embedded.onnx');
         predictionResult.textContent = 'Model loaded successfully. Upload an image to start.';
         console.log('ONNX model loaded successfully');
     } catch (e) {
