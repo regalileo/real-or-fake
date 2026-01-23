@@ -24,3 +24,5 @@ onnxruntime==1.23.1
 # Utils
 tqdm==4.66.1
 rich==14.2.0
+
+streamlit==1.36.0 # Add streamlit it
