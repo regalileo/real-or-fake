@@ -1,11 +1,11 @@
+numpy==2.0.2 # Placed at top to ensure early installation, compatible with Python 3.13 and recent scikit-learn
 torch==2.5.0 # Updated to be compatible with Python 3.13 (based on Streamlit log)
 torchvision==0.21.0 # Updated to be compatible with Python 3.13 and available versions (based on Streamlit log)
+scikit-learn==1.5.0 # Updated to version officially supporting Python 3.13
 datasets==2.18.0
-scikit-learn==1.4.2 # Updated to a slightly newer available version
 matplotlib==3.8.3
 kagglehub==0.4.1
 tqdm==4.66.1
 pillow==10.2.0
-numpy==2.0.2
 onnxruntime==1.23.1
-streamlit==1.36.0 # Add streamlit itself if not implicitly handled by the deployer
+streamlit==1.36.0 # Add streamlit it
