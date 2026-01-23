@@ -1,5 +1,5 @@
-torch==2.2.1 # Specify exact versions for reproducibility
-torchvision==0.17.1
+torch==2.5.0 # Updated to be compatible with Python 3.13
+torchvision==0.20.0 # Updated to be compatible with Python 3.13
 datasets==2.18.0
 scikit-learn==1.4.1
 matplotlib==3.8.3
