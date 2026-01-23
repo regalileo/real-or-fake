@@ -1,0 +1,10 @@
+torch==2.2.1 # Specify exact versions for reproducibility
+torchvision==0.17.1
+datasets==2.18.0
+scikit-learn==1.4.1
+matplotlib==3.8.3
+kagglehub==0.4.1
+tqdm==4.66.1
+pillow==10.2.0
+numpy==1.26.4
+onnxruntime==1.23.1
