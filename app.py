@@ -42,7 +42,7 @@ def load_onnx_model(model_path):
         st.error(f"Pastikan file '{model_path}' ada dan dapat diakses. Detail error: {e}") # Added more detailed error message
         return None
 
-model_path = "mobilenet_v2_ai_real_embedded.onnx"
+model_path = "mobilenet_v2_ai_real.onnx"
 ort_session = load_onnx_model(model_path)
 
 if ort_session:
