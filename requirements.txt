@@ -1,5 +1,5 @@
-numpy==2.0.2 # Placed at top to ensure early installation, compatible with Python 3.13 and recent scikit-learn
-torch==2.5.0 # Updated to be compatible with Python 3.13 (based on Streamlit log)
+numpy==2.0.2 --prefer-binary
+torch==2.6.0 # Updated to be compatible with Python 3.13 (based on Streamlit log)
 torchvision==0.21.0 # Updated to be compatible with Python 3.13 and available versions (based on Streamlit log)
 scikit-learn==1.5.0 # Updated to version officially supporting Python 3.13
 datasets==2.18.0
