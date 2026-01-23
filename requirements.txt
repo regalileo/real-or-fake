@@ -1,7 +1,7 @@
-torch==2.5.0 # Updated to be compatible with Python 3.13
-torchvision==0.21.0 # Updated to be compatible with Python 3.13 and available versions
+torch==2.5.0 # Updated to be compatible with Python 3.13 (based on Streamlit log)
+torchvision==0.21.0 # Updated to be compatible with Python 3.13 and available versions (based on Streamlit log)
 datasets==2.18.0
-scikit-learn==1.4.1
+scikit-learn==1.4.2 # Updated to a slightly newer available version
 matplotlib==3.8.3
 kagglehub==0.4.1
 tqdm==4.66.1
