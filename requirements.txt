@@ -1,5 +1,5 @@
 torch==2.5.0 # Updated to be compatible with Python 3.13
-torchvision==0.20.0 # Updated to be compatible with Python 3.13
+torchvision==0.21.0 # Updated to be compatible with Python 3.13 and available versions
 datasets==2.18.0
 scikit-learn==1.4.1
 matplotlib==3.8.3
@@ -8,3 +8,4 @@ tqdm==4.66.1
 pillow==10.2.0
 numpy==1.26.4
 onnxruntime==1.23.1
+streamlit==1.36.0 # Add streamlit itself if not implicitly handled by the deployer
